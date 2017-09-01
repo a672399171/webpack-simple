@@ -19,9 +19,9 @@
 	import AppFooter from 'components/Footer.vue'
 	import Breadcrumb from 'components/Breadcrumb.vue'
 
-    import '../css/font-awesome.css'
-	import '../css/simple-line-icons.css'
-	import '../css/style.css'
+    import '../styles/css/font-awesome.css'
+	import '../styles/css/simple-line-icons.css'
+	import '../styles/css/style.css'
 
 	export default {
 		name: 'full',

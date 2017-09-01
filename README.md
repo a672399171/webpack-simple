@@ -1,6 +1,6 @@
 # webpack-simple
 
-> Y
+> webpack-simple
 
 ## Build Setup
 
