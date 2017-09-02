@@ -2,11 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Containers
-import Full from 'containers/Full.vue'
+import Full from 'containers/Full'
 
 // Views
-import Dashboard from 'views/Dashboard.vue'
-import NotFoundComponent from 'views/Page404.vue'
+import Dashboard from 'views/Dashboard'
+import NotFoundComponent from 'views/Page404'
 
 Vue.use(Router);
 

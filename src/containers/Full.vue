@@ -14,21 +14,15 @@
 </template>
 
 <script>
-	import AppHeader from 'components/Header.vue'
-	import Sidebar from 'components/Sidebar.vue'
-	import AppFooter from 'components/Footer.vue'
-	import Breadcrumb from 'components/Breadcrumb.vue'
-
-    import '../styles/css/font-awesome.css'
-	import '../styles/css/simple-line-icons.css'
-	import '../styles/css/style.css'
+	import AppHeader from 'components/Header'
+	import Sidebar from 'components/Sidebar'
+	import Breadcrumb from 'components/Breadcrumb'
 
 	export default {
 		name: 'full',
 		components: {
 			AppHeader,
 			Sidebar,
-			AppFooter,
 			Breadcrumb
 		},
 		computed: {

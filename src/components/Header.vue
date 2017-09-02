@@ -13,7 +13,7 @@
 </template>
 <script>
 
-	import navbar from 'components/Navbar.vue'
+	import navbar from 'components/Navbar'
 	import dropdown from 'vue-strap'
 
 	export default {
