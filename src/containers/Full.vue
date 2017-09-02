@@ -2,7 +2,7 @@
     <div class="app">
         <AppHeader/>
         <div class="app-body">
-            <Sidebar/>
+            <Sidebar :navItems="nav"/>
             <main class="main">
                 <breadcrumb :list="list"/>
                 <div class="container-fluid">
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+	import nav from 'src/nav'
+
 	import AppHeader from 'components/Header'
 	import Sidebar from 'components/Sidebar'
 	import Breadcrumb from 'components/Breadcrumb'
@@ -24,6 +26,11 @@
 			AppHeader,
 			Sidebar,
 			Breadcrumb
+		},
+		data () {
+			return {
+				nav: nav.items
+			}
 		},
 		computed: {
 			name () {
