@@ -14,13 +14,11 @@
 <script>
 
 	import navbar from 'components/Navbar'
-	import dropdown from 'vue-strap'
 
 	export default {
 		name: 'header',
 		components: {
 			navbar,
-			dropdown
 		},
 		methods: {
 			click () {
